@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  # root 'controller#action'
+  root 'homepage#index'
 
 end
