@@ -58,4 +58,9 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'react-rails'
 
 # Youtube
-gem 'yt', '~> 0.13.7'
+# gem 'yt', '~> 0.13.7'
+# gem 'youtube_search'
+# gem 'youtube_it'
+
+# Observer
+# gem 'rails-observers'

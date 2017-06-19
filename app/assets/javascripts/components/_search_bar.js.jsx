@@ -1,12 +1,3 @@
-// var SearchBar = React.createClass({
-//   render() {
-//     console.log('Search Bar created');
-//     return (
-//       <input />
-//     )
-//   }
-// });
-
 var SearchBar = React.createClass({
   // Constructor initialising state
   getInitialState() {
@@ -25,7 +16,7 @@ var SearchBar = React.createClass({
     return (
       <div>
         <div className="text-primary">Enter your search below</div>
-        <input onChange={this.onInputChange}/>
+        <input value={this.state.term} onChange={this.onInputChange}/>
         <div>Current search term: {this.state.term}</div>
       </div>
     )
